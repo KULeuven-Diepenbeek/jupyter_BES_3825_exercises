@@ -13,5 +13,5 @@ chmod -w $EXDIR/plotFuncties.py
 rm $EXDIR/handleiding.ipynb
 rm -R $EXDIR/assets_handleiding
 cp $GITDIR/handleiding.ipynb $EXDIR/handleiding.ipynb
-cp $GITDIR/assets_handleiding $EXDIR/assets_handleiding
+cp -r $GITDIR/assets_handleiding $EXDIR/assets_handleiding
 echo "DONE"
