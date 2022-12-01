@@ -10,4 +10,8 @@ chmod -w $EXDIR/hulpfunctiesKlimaatopwarming.py
 chmod -w $EXDIR/knipFuncties.py 
 chmod -w $EXDIR/modeleerFuncties.py 
 chmod -w $EXDIR/plotFuncties.py 
+rm $EXDIR/handleiding.ipynb
+rm -R $EXDIR/assets_handleiding
+cp $GITDIR/handleiding.ipynb $EXDIR/handleiding.ipynb
+cp $GITDIR/assets_handleiding $EXDIR/assets_handleiding
 echo "DONE"
