@@ -14,4 +14,7 @@ rm $EXDIR/handleiding.ipynb
 rm -R $EXDIR/assets_handleiding
 cp $GITDIR/handleiding.ipynb $EXDIR/handleiding.ipynb
 cp -r $GITDIR/assets_handleiding $EXDIR/assets_handleiding
+
+rm -R $EXDIR/assets
+cp -r $GITDIR/assets $EXDIR/assets
 echo "DONE"
