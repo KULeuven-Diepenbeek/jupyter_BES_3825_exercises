@@ -1,5 +1,5 @@
 # Jupyter_BES_3825_exercises 
-De feitelijke oefeningen
+De feitelijke oefeningen voor BES Kwartiel 2
 
 ## Verplichte files in deze repo
 - [x] update_workspace.sh
