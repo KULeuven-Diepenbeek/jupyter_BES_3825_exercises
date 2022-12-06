@@ -10,10 +10,13 @@ chmod -w $EXDIR/hulpfunctiesKlimaatopwarming.py
 chmod -w $EXDIR/knipFuncties.py 
 chmod -w $EXDIR/modeleerFuncties.py 
 chmod -w $EXDIR/plotFuncties.py 
+
 rm $EXDIR/handleiding.ipynb
 rm -R $EXDIR/assets_handleiding
 cp $GITDIR/handleiding.ipynb $EXDIR/handleiding.ipynb
 cp -r $GITDIR/assets_handleiding $EXDIR/assets_handleiding
+rm $EXDIR/Jupyterlab_tips_and_tricks.ipynb
+cp $GITDIR/Jupyterlab_tips_and_tricks.ipynb $EXDIR/Jupyterlab_tips_and_tricks.ipynb
 
 rm -R $EXDIR/assets
 cp -r $GITDIR/assets $EXDIR/assets
