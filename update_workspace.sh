@@ -5,6 +5,10 @@ mkdir $EXDIR 2>/dev/null
 yes n | cp -i -R $GITDIR/* $EXDIR 2>/dev/null
 chmod +w -R $EXDIR 
 rm $EXDIR/update_workspace.sh
+
+rm $EXDIR/modeleerFuncties.py
+cp $GITDIR/modeleerFuncties.py $EXDIR/modeleerFuncties.py
+
 chmod -w $EXDIR/hulpfunctiesBroeikasgassen.py 
 chmod -w $EXDIR/hulpfunctiesKlimaatopwarming.py 
 chmod -w $EXDIR/knipFuncties.py 

@@ -18,7 +18,7 @@ def zwevendGemiddelde(xs,n):
         xFilt.append(np.mean(xs[0:i+1]))
 
     for i in range(n, len(xs)):
-        xFilt.append(np.mean(xs[i-n:i]))
+        xFilt.append(np.mean(xs[i-n+1:i+1]))
     return xFilt
 
 def fitVeelterm(xs,ys, graad):
