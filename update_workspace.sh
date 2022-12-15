@@ -36,7 +36,7 @@ cp -r $GITDIR/assets $EXDIR/assets
 
 echo "Bekijk hieronder de lijst met geupdate bestanden. Reset de bestanden die je wenst te vernieuwen."
 # echo -e "\033[0m\033[46;30m - Geen nieuwe versies van bestanden "
-# echo -e "\033[0m\033[46;30m - K2W1-Projectielbeweging.ipynb kreeg een nieuwere versie: \033[1;30mVersie 1.0 "
-echo "\033[0m\033[46;30m - K2W3-Klimaatopwarming.ipynb kreeg een nieuwere versie: \033[1;30mVersie 1.1 "
+echo -e "\033[0m\033[46;30m - K2W1-Projectielbeweging.ipynb Nieuwste versie: \033[1;30mVersie 1.0 (enkel versienummer toegevoegd!)"
+echo "\033[0m\033[46;30m - K2W3-Klimaatopwarming.ipynb Nieuwste versie: \033[1;30mVersie 1.1 "
 
 echo "\033[0mDONE"
