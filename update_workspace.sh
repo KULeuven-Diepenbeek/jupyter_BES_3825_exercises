@@ -33,4 +33,10 @@ cp $GITDIR/Jupyterlab_tips_and_tricks.ipynb $EXDIR/Jupyterlab_tips_and_tricks.ip
 
 rm -R $EXDIR/assets
 cp -r $GITDIR/assets $EXDIR/assets
+
+echo "Bekijk hieronder de lijst met geupdate bestanden. Reset de bestanden die je wenst te vernieuwen."
+# echo -e "\033[46;30m - Geen nieuwe versies van bestanden "
+# echo -e "\033[46;30m - K2W1-Projectielbeweging.ipynb kreeg een nieuwere versie "
+echo -e "\033[46;30m - K2W3-Klimaatopwarming.ipynb kreeg een nieuwere versie "
+
 echo "DONE"
